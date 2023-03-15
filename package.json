@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "esbuild src/index.js --bundle --outfile=out.js --platform=node --packages=external"
+    "test": "esbuild src/index.js --bundle --outfile=index.js --platform=node --sourcemap --external:dd-trace"
   },
   "keywords": [],
   "author": "",
